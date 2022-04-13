@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.income-form,
+.expense-form {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(146, 144, 141);
+}
+
+.button {
+  height: 36px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(146, 144, 141);
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.income-list,
+.expense-list {
+  list-style-type: none;
+  width: 200px;
+}
+
+.item {
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(146, 144, 141);
+}
+
+.balance {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(146, 144, 141);
+  width: 200px;
+  margin-top: 50px;
+  display: block;
+  margin-left: 43%;
+}
+
+#total {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#title {
+  color: white;
+  background-color: black;
+  width: 100vw;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  width: 100vw;
+  height: 50px;
+  border-radius: 0 0 1rem 1rem;
+  margin-top: 200px;
+}
